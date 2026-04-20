@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>SoloDoc â€” Kenya's E-Medicine Platform</title>
+<title>SoloDoc — Kenya's E-Medicine Platform</title>
 <meta name="description" content="SoloDoc connects patients with verified doctors for online consultations, prescriptions, and M-Pesa payments. Built for Kenya."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
@@ -22,7 +22,7 @@ html{scroll-behavior:smooth;font-family:var(--sans)}
 body{background:var(--white);color:var(--gray800);line-height:1.6;overflow-x:hidden}
 a{text-decoration:none;color:inherit}
 
-/* â”€â”€â”€ NAV â”€â”€â”€ */
+/* ─── NAV ─── */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,22,40,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.06)}
 .nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .nav-logo{font-family:var(--serif);font-size:22px;color:var(--white);display:flex;align-items:center;gap:8px}
@@ -37,7 +37,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,22,40,.92
 .nav-cta:hover{background:var(--teal2)}
 .nav-toggle{display:none;background:none;border:none;cursor:pointer;color:var(--white);font-size:22px}
 
-/* â”€â”€â”€ ORBIT BACKGROUND â”€â”€â”€ */
+/* ─── ORBIT BACKGROUND ─── */
 .orbit-bg{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}
 .orbit-ring{position:absolute;border-radius:50%;border:1px solid rgba(20,184,166,.08);animation:orbit-spin linear infinite}
 .orbit-ring:nth-child(1){width:600px;height:600px;top:-100px;right:-200px;animation-duration:40s}
@@ -53,7 +53,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,22,40,.92
 .blob3{width:200px;height:200px;background:rgba(99,246,228,.05);top:60%;right:20%;animation-duration:9s;animation-delay:-5s}
 @keyframes blob-float{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-30px) scale(1.05)}}
 
-/* â”€â”€â”€ HERO â”€â”€â”€ */
+/* ─── HERO ─── */
 .hero{background:var(--navy);min-height:100vh;display:flex;align-items:center;padding:100px 24px 80px;position:relative;overflow:hidden}
 .hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;z-index:0}
 .hero-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;z-index:1}
@@ -93,7 +93,7 @@ h1 em{font-style:italic;color:var(--teal2)}
 .mpesa-row{margin-top:16px;background:rgba(13,148,136,.08);border:1px solid rgba(13,148,136,.2);border-radius:10px;padding:12px 16px;display:flex;align-items:center;gap:10px}
 .mpesa-amount{margin-left:auto;color:var(--teal3);font-weight:700;font-size:15px}
 
-/* â”€â”€â”€ HERO ANIMATIONS â”€â”€â”€ */
+/* ─── HERO ANIMATIONS ─── */
 @keyframes fadeInUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
 .anim-1{animation:fadeInUp .7s ease both .1s}
 .anim-2{animation:fadeInUp .7s ease both .25s}
@@ -102,7 +102,7 @@ h1 em{font-style:italic;color:var(--teal2)}
 .anim-5{animation:fadeInUp .7s ease both .7s}
 .anim-card{animation:fadeInUp .8s ease both .3s}
 
-/* â”€â”€â”€ STATS BAR â”€â”€â”€ */
+/* ─── STATS BAR ─── */
 .stats-bar{background:var(--navy2);border-top:1px solid rgba(255,255,255,.05);padding:28px 24px}
 .stats-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-around;flex-wrap:wrap;gap:24px}
 .stat-item{text-align:center}
@@ -116,7 +116,7 @@ h1 em{font-style:italic;color:var(--teal2)}
 .powered-logos{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .powered-logo{font-size:11px;font-weight:700;color:rgba(255,255,255,.35);padding:4px 10px;border:1px solid rgba(255,255,255,.1);border-radius:6px;letter-spacing:.05em;text-transform:uppercase}
 
-/* â”€â”€â”€ ANIMATED KPI CARDS â”€â”€â”€ */
+/* ─── ANIMATED KPI CARDS ─── */
 .kpi-section{padding:80px 24px;background:var(--white);position:relative;overflow:hidden}
 .kpi-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 50% 0%,rgba(224,242,254,.6) 0%,transparent 70%);pointer-events:none}
 .kpi-inner{max-width:1200px;margin:0 auto;position:relative;z-index:1}
@@ -195,7 +195,7 @@ h2 em{font-style:italic;color:var(--teal)}
 .kpi-consults .kpi-ring{border-color:rgba(22,163,74,.06)}
 .kpi-revenue .kpi-ring{border-color:rgba(217,119,6,.06)}
 
-/* â”€â”€â”€ LIFE CAROUSEL â”€â”€â”€ */
+/* ─── LIFE CAROUSEL ─── */
 .life-section{padding:80px 24px;background:var(--navy);position:relative;overflow:hidden}
 .life-section .orbit-bg .orbit-ring{border-color:rgba(20,184,166,.05)}
 .life-section .blob{opacity:.5}
@@ -244,7 +244,7 @@ h2 em{font-style:italic;color:var(--teal)}
 .life-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.2);cursor:pointer;transition:.3s}
 .life-dot.active{background:var(--teal2);width:20px;border-radius:3px}
 
-/* â”€â”€â”€ ORBIT SECTION ACCENT â”€â”€â”€ */
+/* ─── ORBIT SECTION ACCENT ─── */
 .orbit-section{padding:80px 24px;background:var(--gray50);position:relative;overflow:hidden}
 .orbit-visual{position:relative;width:400px;height:400px;margin:0 auto}
 .orbit-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100px;height:100px;background:linear-gradient(135deg,var(--teal),var(--teal2));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:40px;box-shadow:0 0 40px rgba(13,148,136,.3),0 0 80px rgba(13,148,136,.15);z-index:10}
@@ -270,7 +270,7 @@ h2 em{font-style:italic;color:var(--teal)}
 .orbit-feat-title{font-size:15px;font-weight:600;color:var(--gray800);margin-bottom:3px}
 .orbit-feat-desc{font-size:13px;color:var(--gray600);line-height:1.5}
 
-/* â”€â”€â”€ SECTIONS â”€â”€â”€ */
+/* ─── SECTIONS ─── */
 section{padding:100px 24px}
 .section-inner{max-width:1200px;margin:0 auto}
 .how-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:56px}
@@ -322,7 +322,7 @@ section{padding:100px 24px}
 .plan-card.featured .plan-period{color:rgba(255,255,255,.7)}
 .plan-features{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:28px}
 .plan-features li{font-size:14px;color:rgba(255,255,255,.7);display:flex;align-items:flex-start;gap:8px}
-.plan-features li::before{content:'âœ“';color:var(--teal2);font-weight:700;flex-shrink:0;margin-top:1px}
+.plan-features li::before{content:'✓';color:var(--teal2);font-weight:700;flex-shrink:0;margin-top:1px}
 .plan-card.featured .plan-features li{color:rgba(255,255,255,.9)}
 .plan-card.featured .plan-features li::before{color:var(--white)}
 .plan-btn{display:block;text-align:center;padding:12px;border-radius:10px;font-size:14px;font-weight:600;transition:.2s;border:1px solid rgba(255,255,255,.2);color:var(--white)}
@@ -367,7 +367,7 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
 .footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
 .footer-bottom p{font-size:13px}
 
-/* â”€â”€â”€ RESPONSIVE â”€â”€â”€ */
+/* ─── RESPONSIVE ─── */
 @media(max-width:1024px){.kpi-grid{grid-template-columns:repeat(2,1fr)}.orbit-content{grid-template-columns:1fr}.orbit-visual{display:none}}
 @media(max-width:900px){.hero-inner{grid-template-columns:1fr;gap:40px}.hero-card{max-width:480px;margin:0 auto}.footer-grid{grid-template-columns:1fr 1fr}.app-inner{grid-template-columns:1fr}}
 @media(max-width:600px){.nav-links{display:none}.nav-toggle{display:block}.hero{padding:90px 20px 60px}.kpi-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr}.comparison-table{display:none}}
@@ -390,7 +390,7 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
       <a href="https://solo-doctor-emedicine-platform.vercel.app/auth/login" class="btn-signin">Sign In</a>
       <a href="https://solo-doctor-emedicine-platform.vercel.app/auth/register" class="nav-cta">Get Started</a>
     </div>
-    <button class="nav-toggle">â˜°</button>
+    <button class="nav-toggle">☰</button>
   </div>
 </nav>
 
@@ -407,28 +407,28 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
   </div>
   <div class="hero-inner">
     <div>
-      <div class="hero-badge anim-1">ðŸ‡°ðŸ‡ª Built for Kenya</div>
+      <div class="hero-badge anim-1">🇰🇪 Built for Kenya</div>
       <h1 class="anim-2">The <em>complete platform</em> for modern e-medicine.</h1>
-      <p class="hero-sub anim-3">SoloDoc connects patients with verified doctors for online consultations, prescriptions, video calls, and M-Pesa payments â€” all in one secure platform.</p>
+      <p class="hero-sub anim-3">SoloDoc connects patients with verified doctors for online consultations, prescriptions, video calls, and M-Pesa payments — all in one secure platform.</p>
       <div class="hero-actions anim-4">
-        <a href="https://solo-doctor-emedicine-platform.vercel.app/auth/register" class="btn-primary">Start Free Consultation â†’</a>
+        <a href="https://solo-doctor-emedicine-platform.vercel.app/auth/register" class="btn-primary">Start Free Consultation →</a>
         <a href="#how" class="btn-outline">See How It Works</a>
       </div>
       <div class="hero-trust anim-5">
         <div class="trust-avatars"><span>PK</span><span>AM</span><span>JO</span><span>RW</span><span>+</span></div>
-        <span class="hero-trust-text">Trusted by patients & doctors across Kenya &nbsp;Â·&nbsp; M-Pesa payments &nbsp;Â·&nbsp; Secure</span>
+        <span class="hero-trust-text">Trusted by patients & doctors across Kenya &nbsp;·&nbsp; M-Pesa payments &nbsp;·&nbsp; Secure</span>
       </div>
     </div>
     <div class="hero-card anim-card">
       <div class="hero-card-header">
-        <div class="avatar-doc">ðŸ‘¨â€âš•ï¸</div>
-        <div><div class="doc-name">Dr. Amina Wanjiku</div><div class="doc-title">General Practitioner Â· Nairobi</div></div>
+        <div class="avatar-doc">👨‍⚕️</div>
+        <div><div class="doc-name">Dr. Amina Wanjiku</div><div class="doc-title">General Practitioner · Nairobi</div></div>
         <div class="online-badge">Online</div>
       </div>
-      <div class="appt-row"><div><div class="appt-patient">Patrick Kamau</div><div class="appt-time">Today Â· 10:00 AM</div></div><div class="appt-status status-confirmed">Confirmed</div></div>
-      <div class="appt-row"><div><div class="appt-patient">Grace Muthoni</div><div class="appt-time">Today Â· 11:30 AM</div></div><div class="appt-status status-pending">Pending</div></div>
+      <div class="appt-row"><div><div class="appt-patient">Patrick Kamau</div><div class="appt-time">Today · 10:00 AM</div></div><div class="appt-status status-confirmed">Confirmed</div></div>
+      <div class="appt-row"><div><div class="appt-patient">Grace Muthoni</div><div class="appt-time">Today · 11:30 AM</div></div><div class="appt-status status-pending">Pending</div></div>
       <div class="appt-row"><div><div class="appt-patient">James Otieno</div><div class="appt-time">Yesterday</div></div><div class="appt-status status-completed">Completed</div></div>
-      <div class="mpesa-row"><span style="font-size:20px">ðŸ“±</span><span style="font-size:13px;color:rgba(255,255,255,.7)">M-Pesa STK Push sent to James</span><div class="mpesa-amount">KES 1,500</div></div>
+      <div class="mpesa-row"><span style="font-size:20px">📱</span><span style="font-size:13px;color:rgba(255,255,255,.7)">M-Pesa STK Push sent to James</span><div class="mpesa-amount">KES 1,500</div></div>
     </div>
   </div>
 </section>
@@ -459,52 +459,52 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
   </div>
 </div>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+<!-- ═══════════════════════════════════════════════════════
      ANIMATED KPI CARDS
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+════════════════════════════════════════════════════════ -->
 <section class="kpi-section" id="impact">
   <div class="kpi-inner">
     <div class="kpi-header">
       <div class="section-tag">Live Platform Impact</div>
       <h2>Real numbers from <em>real Kenyans.</em></h2>
-      <p class="section-sub">Every metric below reflects actual activity on the SoloDoc platform â€” growing every day.</p>
+      <p class="section-sub">Every metric below reflects actual activity on the SoloDoc platform — growing every day.</p>
     </div>
     <div class="kpi-grid">
 
       <!-- Patients -->
       <div class="kpi-card kpi-patients">
         <div class="kpi-ring"></div>
-        <div class="kpi-icon">ðŸ¤’</div>
+        <div class="kpi-icon">🤒</div>
         <div class="kpi-value"><span class="kpi-counter" data-target="12480">0</span>+</div>
         <div class="kpi-label">Registered Patients</div>
         <div class="kpi-sub">Across Nairobi, Mombasa, Kisumu and 34 other counties</div>
-        <div class="kpi-trend trend-up">â†‘ +18% this month</div>
+        <div class="kpi-trend trend-up">↑ +18% this month</div>
       </div>
 
       <!-- Doctors -->
       <div class="kpi-card kpi-doctors">
         <div class="kpi-ring"></div>
-        <div class="kpi-icon">ðŸ‘¨â€âš•ï¸</div>
+        <div class="kpi-icon">👨‍⚕️</div>
         <div class="kpi-value"><span class="kpi-counter" data-target="183">0</span></div>
         <div class="kpi-label">Verified Doctors</div>
         <div class="kpi-sub">Specialists and GPs verified and actively consulting online</div>
-        <div class="kpi-trend trend-up">â†‘ +24 doctors this quarter</div>
+        <div class="kpi-trend trend-up">↑ +24 doctors this quarter</div>
       </div>
 
       <!-- Consultations -->
       <div class="kpi-card kpi-consults">
         <div class="kpi-ring"></div>
-        <div class="kpi-icon">ðŸŽ¥</div>
+        <div class="kpi-icon">🎥</div>
         <div class="kpi-value"><span class="kpi-counter" data-target="2441">0</span></div>
         <div class="kpi-label">Video Consultations</div>
-        <div class="kpi-sub">Completed appointments â€” avg. rating 4.8 â˜… by patients</div>
-        <div class="kpi-trend trend-up">â†‘ 3Ã— faster than in-person</div>
+        <div class="kpi-sub">Completed appointments — avg. rating 4.8 ★ by patients</div>
+        <div class="kpi-trend trend-up">↑ 3× faster than in-person</div>
       </div>
 
       <!-- Revenue -->
       <div class="kpi-card kpi-revenue">
         <div class="kpi-ring"></div>
-        <div class="kpi-icon">ðŸ’°</div>
+        <div class="kpi-icon">💰</div>
         <div class="kpi-value">KES <span class="kpi-counter" data-target="3660">0</span>K</div>
         <div class="kpi-label">M-Pesa Collected</div>
         <div class="kpi-sub">Total consultation fees paid via Safaricom STK Push</div>
@@ -522,19 +522,19 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
     <h2>See a doctor in <em>minutes</em>, not days.</h2>
     <p class="section-sub">SoloDoc removes every barrier between patients and quality healthcare.</p>
     <div class="how-grid">
-      <div class="how-card"><div class="how-icon">ðŸ”</div><div class="how-num">01</div><div class="how-title">Create your account</div><div class="how-desc">Sign up as a patient or doctor in under 2 minutes. Verified doctors get a profile page instantly.</div></div>
-      <div class="how-card"><div class="how-icon">ðŸ”</div><div class="how-num">02</div><div class="how-title">Find the right doctor</div><div class="how-desc">Browse verified doctors by specialty, ratings, and available slots in real time.</div></div>
-      <div class="how-card"><div class="how-icon">ðŸ“…</div><div class="how-num">03</div><div class="how-title">Book an appointment</div><div class="how-desc">Pick a slot, describe your symptoms. Get instant confirmation via SMS and email.</div></div>
-      <div class="how-card"><div class="how-icon">ðŸ“±</div><div class="how-num">04</div><div class="how-title">Pay via M-Pesa</div><div class="how-desc">STK Push to your Safaricom number. Enter PIN. Confirmed instantly â€” no bank trips.</div></div>
-      <div class="how-card"><div class="how-icon">ðŸŽ¥</div><div class="how-num">05</div><div class="how-title">Consult via video</div><div class="how-desc">HD video consultation from anywhere in Kenya â€” phone, tablet, or browser.</div></div>
-      <div class="how-card"><div class="how-icon">ðŸ’Š</div><div class="how-num">06</div><div class="how-title">Receive prescription</div><div class="how-desc">Digital prescription sent instantly. Full medication history in the app, always accessible.</div></div>
+      <div class="how-card"><div class="how-icon">🔐</div><div class="how-num">01</div><div class="how-title">Create your account</div><div class="how-desc">Sign up as a patient or doctor in under 2 minutes. Verified doctors get a profile page instantly.</div></div>
+      <div class="how-card"><div class="how-icon">🔍</div><div class="how-num">02</div><div class="how-title">Find the right doctor</div><div class="how-desc">Browse verified doctors by specialty, ratings, and available slots in real time.</div></div>
+      <div class="how-card"><div class="how-icon">📅</div><div class="how-num">03</div><div class="how-title">Book an appointment</div><div class="how-desc">Pick a slot, describe your symptoms. Get instant confirmation via SMS and email.</div></div>
+      <div class="how-card"><div class="how-icon">📱</div><div class="how-num">04</div><div class="how-title">Pay via M-Pesa</div><div class="how-desc">STK Push to your Safaricom number. Enter PIN. Confirmed instantly — no bank trips.</div></div>
+      <div class="how-card"><div class="how-icon">🎥</div><div class="how-num">05</div><div class="how-title">Consult via video</div><div class="how-desc">HD video consultation from anywhere in Kenya — phone, tablet, or browser.</div></div>
+      <div class="how-card"><div class="how-icon">💊</div><div class="how-num">06</div><div class="how-title">Receive prescription</div><div class="how-desc">Digital prescription sent instantly. Full medication history in the app, always accessible.</div></div>
     </div>
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+<!-- ═══════════════════════════════════════════════════════
      E-MEDICINE LIFE CAROUSEL
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+════════════════════════════════════════════════════════ -->
 <section class="life-section" id="life">
   <div class="orbit-bg">
     <div class="orbit-ring"><div class="orbit-dot"></div></div>
@@ -557,9 +557,9 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
         </div>
         <div class="life-body">
           <div class="life-tag">Video Consult</div>
-          <div class="life-title">Doctor sees 3Ã— more patients without leaving her clinic</div>
+          <div class="life-title">Doctor sees 3× more patients without leaving her clinic</div>
           <div class="life-desc">With SoloDoc, Dr. Kariuki runs morning ward rounds and afternoon online consultations back-to-back.</div>
-          <div class="life-meta"><div class="life-avatar">DK</div><div class="life-author">Dr. Aisha Kariuki Â· Cardiologist</div><div class="life-time">2 days ago</div></div>
+          <div class="life-meta"><div class="life-avatar">DK</div><div class="life-author">Dr. Aisha Kariuki · Cardiologist</div><div class="life-time">2 days ago</div></div>
         </div>
       </div>
 
@@ -572,7 +572,7 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
           <div class="life-tag">Patient Story</div>
           <div class="life-title">Mother in Kisumu consults Nairobi specialist in 20 minutes</div>
           <div class="life-desc">Grace used to travel 6 hours for specialist appointments. Now she books on SoloDoc and pays with M-Pesa.</div>
-          <div class="life-meta"><div class="life-avatar">GM</div><div class="life-author">Grace Muthoni Â· Patient</div><div class="life-time">5 days ago</div></div>
+          <div class="life-meta"><div class="life-avatar">GM</div><div class="life-author">Grace Muthoni · Patient</div><div class="life-time">5 days ago</div></div>
         </div>
       </div>
 
@@ -583,9 +583,9 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
         </div>
         <div class="life-body">
           <div class="life-tag">Prescriptions</div>
-          <div class="life-title">No more lost paper prescriptions â€” everything is digital</div>
+          <div class="life-title">No more lost paper prescriptions — everything is digital</div>
           <div class="life-desc">Patients access their full prescription history on their phones. Pharmacists scan the QR code for verification.</div>
-          <div class="life-meta"><div class="life-avatar">MW</div><div class="life-author">Dr. Moses Waweru Â· GP</div><div class="life-time">1 week ago</div></div>
+          <div class="life-meta"><div class="life-avatar">MW</div><div class="life-author">Dr. Moses Waweru · GP</div><div class="life-time">1 week ago</div></div>
         </div>
       </div>
 
@@ -598,7 +598,7 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
           <div class="life-tag">M-Pesa Payments</div>
           <div class="life-title">Consultation fees collected in seconds via STK Push</div>
           <div class="life-desc">Doctor's outstanding balance dropped 70% after switching to SoloDoc's M-Pesa STK integration.</div>
-          <div class="life-meta"><div class="life-avatar">JO</div><div class="life-author">James Otieno Â· Patient</div><div class="life-time">1 week ago</div></div>
+          <div class="life-meta"><div class="life-avatar">JO</div><div class="life-author">James Otieno · Patient</div><div class="life-time">1 week ago</div></div>
         </div>
       </div>
 
@@ -611,7 +611,7 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
           <div class="life-tag">Medical Records</div>
           <div class="life-title">Complete patient history available to doctor in one click</div>
           <div class="life-desc">Every consultation, prescription, and intake form stored securely. Doctors see full context before the call starts.</div>
-          <div class="life-meta"><div class="life-avatar">RK</div><div class="life-author">Dr. Ruth Kamau Â· Pediatrician</div><div class="life-time">2 weeks ago</div></div>
+          <div class="life-meta"><div class="life-avatar">RK</div><div class="life-author">Dr. Ruth Kamau · Pediatrician</div><div class="life-time">2 weeks ago</div></div>
         </div>
       </div>
 
@@ -622,9 +622,9 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
         </div>
         <div class="life-body">
           <div class="life-tag">Referrals</div>
-          <div class="life-title">GP refers patient to specialist â€” booked in the same session</div>
+          <div class="life-title">GP refers patient to specialist — booked in the same session</div>
           <div class="life-desc">SoloDoc's referral system lets GPs send patients to specialists with full context, referral code, and auto-booked slot.</div>
-          <div class="life-meta"><div class="life-avatar">PK</div><div class="life-author">Patrick Kamau Â· Patient</div><div class="life-time">3 weeks ago</div></div>
+          <div class="life-meta"><div class="life-avatar">PK</div><div class="life-author">Patrick Kamau · Patient</div><div class="life-time">3 weeks ago</div></div>
         </div>
       </div>
 
@@ -636,33 +636,33 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
         <div class="life-body">
           <div class="life-tag">Analytics</div>
           <div class="life-title">Doctor tracks earnings, ratings and patient growth monthly</div>
-          <div class="life-desc">Revenue dashboard shows completed appointments, commission breakdown, and M-Pesa payouts â€” all in real time.</div>
-          <div class="life-meta"><div class="life-avatar">AW</div><div class="life-author">Dr. Ali Waweru Â· Specialist</div><div class="life-time">Last month</div></div>
+          <div class="life-desc">Revenue dashboard shows completed appointments, commission breakdown, and M-Pesa payouts — all in real time.</div>
+          <div class="life-meta"><div class="life-avatar">AW</div><div class="life-author">Dr. Ali Waweru · Specialist</div><div class="life-time">Last month</div></div>
         </div>
       </div>
 
     </div>
   </div>
   <div class="life-nav">
-    <button class="life-nav-btn" id="lifePrev">â†</button>
+    <button class="life-nav-btn" id="lifePrev">←</button>
     <div class="life-dots" id="lifeDots"></div>
-    <button class="life-nav-btn" id="lifeNext">â†’</button>
+    <button class="life-nav-btn" id="lifeNext">→</button>
   </div>
 </section>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+<!-- ═══════════════════════════════════════════════════════
      ORBIT ACCENT SECTION
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+════════════════════════════════════════════════════════ -->
 <section class="orbit-section" id="platform">
   <div class="orbit-content">
     <div class="orbit-text">
       <div class="section-tag">Connected Ecosystem</div>
       <h2>Every piece <em>orbits around</em> the patient.</h2>
-      <p class="section-sub">SoloDoc is engineered so that doctors, payments, prescriptions, records, and notifications all revolve around a single centre â€” the patient's health outcome.</p>
+      <p class="section-sub">SoloDoc is engineered so that doctors, payments, prescriptions, records, and notifications all revolve around a single centre — the patient's health outcome.</p>
       <div class="orbit-features">
-        <div class="orbit-feat"><div class="orbit-feat-icon">ðŸ”</div><div><div class="orbit-feat-title">End-to-end encrypted</div><div class="orbit-feat-desc">All consultation data, prescriptions and records encrypted at rest and in transit.</div></div></div>
-        <div class="orbit-feat"><div class="orbit-feat-icon">âš¡</div><div><div class="orbit-feat-title">Real-time everywhere</div><div class="orbit-feat-desc">Booking confirmations, M-Pesa receipts and prescription alerts delivered in seconds via push and SMS.</div></div></div>
-        <div class="orbit-feat"><div class="orbit-feat-icon">ðŸ‡°ðŸ‡ª</div><div><div class="orbit-feat-title">Built for Kenya</div><div class="orbit-feat-desc">M-Pesa STK Push, Africa's Talking SMS, Safaricom network â€” no foreign payment rails needed.</div></div></div>
+        <div class="orbit-feat"><div class="orbit-feat-icon">🔐</div><div><div class="orbit-feat-title">End-to-end encrypted</div><div class="orbit-feat-desc">All consultation data, prescriptions and records encrypted at rest and in transit.</div></div></div>
+        <div class="orbit-feat"><div class="orbit-feat-icon">⚡</div><div><div class="orbit-feat-title">Real-time everywhere</div><div class="orbit-feat-desc">Booking confirmations, M-Pesa receipts and prescription alerts delivered in seconds via push and SMS.</div></div></div>
+        <div class="orbit-feat"><div class="orbit-feat-icon">🇰🇪</div><div><div class="orbit-feat-title">Built for Kenya</div><div class="orbit-feat-desc">M-Pesa STK Push, Africa's Talking SMS, Safaricom network — no foreign payment rails needed.</div></div></div>
       </div>
     </div>
 
@@ -670,21 +670,21 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
     <div class="orbit-visual">
       <!-- Ring 1 -->
       <div class="orbit-planet-ring ring-1">
-        <div class="planet planet-1" title="Patients">ðŸ¤’</div>
+        <div class="planet planet-1" title="Patients">🤒</div>
       </div>
       <!-- Ring 2 -->
       <div class="orbit-planet-ring ring-2">
-        <div class="planet planet-2" title="Doctors">ðŸ‘¨â€âš•ï¸</div>
-        <div class="planet planet-3" style="top:auto;bottom:0;left:50%;transform:translate(-50%,50%)" title="Prescriptions">ðŸ’Š</div>
+        <div class="planet planet-2" title="Doctors">👨‍⚕️</div>
+        <div class="planet planet-3" style="top:auto;bottom:0;left:50%;transform:translate(-50%,50%)" title="Prescriptions">💊</div>
       </div>
       <!-- Ring 3 -->
       <div class="orbit-planet-ring ring-3">
-        <div class="planet planet-4" title="M-Pesa">ðŸ“±</div>
-        <div class="planet planet-5" style="top:auto;bottom:0;left:50%;transform:translate(-50%,50%)" title="Records">ðŸ—‚ï¸</div>
-        <div class="planet planet-6" style="top:50%;left:0;transform:translate(-50%,-50%)" title="Notifications">ðŸ””</div>
+        <div class="planet planet-4" title="M-Pesa">📱</div>
+        <div class="planet planet-5" style="top:auto;bottom:0;left:50%;transform:translate(-50%,50%)" title="Records">🗂️</div>
+        <div class="planet planet-6" style="top:50%;left:0;transform:translate(-50%,-50%)" title="Notifications">🔔</div>
       </div>
       <!-- Center -->
-      <div class="orbit-center">â¤ï¸</div>
+      <div class="orbit-center">❤️</div>
     </div>
   </div>
 </section>
@@ -694,20 +694,20 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
   <div class="section-inner">
     <div class="section-tag">Platform Features</div>
     <h2>Everything <em>modern healthcare</em> needs.</h2>
-    <p class="section-sub">From patient booking to doctor payouts â€” SoloDoc covers every layer of the consultation lifecycle.</p>
+    <p class="section-sub">From patient booking to doctor payouts — SoloDoc covers every layer of the consultation lifecycle.</p>
     <div class="features-grid">
-      <div class="feature-cell"><div class="feature-icon">ðŸ“‹</div><div class="feature-title">Patient Booking System</div><div class="feature-desc">Browse available slots, select a doctor by specialty, and book in under 60 seconds. Confirmation via SMS.</div></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸŽ¥</div><div class="feature-title">HD Video Consultations</div><div class="feature-desc">Powered by Daily.co. Doctors and patients join from the mobile app or any browser. Consultation rooms per appointment.</div><span class="feature-tag">Secure</span></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸ’Š</div><div class="feature-title">Digital Prescriptions</div><div class="feature-desc">Doctors issue structured prescriptions with medication, dosage and duration. Patients access full history anytime.</div></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸ“±</div><div class="feature-title">M-Pesa STK Push</div><div class="feature-desc">Daraja API integration. Patients pay consultation fees from their Safaricom line. Receipts sent automatically.</div><span class="feature-tag">M-Pesa Built-in</span></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸ—‚ï¸</div><div class="feature-title">Medical Records</div><div class="feature-desc">Doctors maintain consultation notes per appointment. Patients have a full chronological medical history in the app.</div></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸ“Š</div><div class="feature-title">Doctor Analytics</div><div class="feature-desc">Track appointments, revenue, patient counts and ratings. See earnings, pending payouts and consultation trends.</div></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸ””</div><div class="feature-title">Push Notifications</div><div class="feature-desc">Appointment reminders, prescription alerts and M-Pesa confirmations via Expo push and Africa's Talking SMS.</div></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸ¥</div><div class="feature-title">Insurance Claims</div><div class="feature-desc">Link insurance cards and generate claims from completed appointments. Full status tracking built in.</div><span class="feature-tag">Pro</span></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸ”—</div><div class="feature-title">Doctor Referrals</div><div class="feature-desc">Refer patients to specialists with full context and referral code. Specialist receives everything before the appointment.</div></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸ“</div><div class="feature-title">Intake Forms</div><div class="feature-desc">Patients complete pre-consultation forms. Doctors review symptoms and allergies before the appointment begins.</div></div>
-      <div class="feature-cell"><div class="feature-icon">â³</div><div class="feature-title">Waitlist Management</div><div class="feature-desc">Patients join a doctor's waitlist. Automatic notification when a slot opens up. No calls needed.</div></div>
-      <div class="feature-cell"><div class="feature-icon">ðŸ’°</div><div class="feature-title">Revenue & Payout Engine</div><div class="feature-desc">Platform commissions tracked per appointment. Doctor payouts via M-Pesa with full audit trail.</div><span class="feature-tag">Admin</span></div>
+      <div class="feature-cell"><div class="feature-icon">📋</div><div class="feature-title">Patient Booking System</div><div class="feature-desc">Browse available slots, select a doctor by specialty, and book in under 60 seconds. Confirmation via SMS.</div></div>
+      <div class="feature-cell"><div class="feature-icon">🎥</div><div class="feature-title">HD Video Consultations</div><div class="feature-desc">Powered by Daily.co. Doctors and patients join from the mobile app or any browser. Consultation rooms per appointment.</div><span class="feature-tag">Secure</span></div>
+      <div class="feature-cell"><div class="feature-icon">💊</div><div class="feature-title">Digital Prescriptions</div><div class="feature-desc">Doctors issue structured prescriptions with medication, dosage and duration. Patients access full history anytime.</div></div>
+      <div class="feature-cell"><div class="feature-icon">📱</div><div class="feature-title">M-Pesa STK Push</div><div class="feature-desc">Daraja API integration. Patients pay consultation fees from their Safaricom line. Receipts sent automatically.</div><span class="feature-tag">M-Pesa Built-in</span></div>
+      <div class="feature-cell"><div class="feature-icon">🗂️</div><div class="feature-title">Medical Records</div><div class="feature-desc">Doctors maintain consultation notes per appointment. Patients have a full chronological medical history in the app.</div></div>
+      <div class="feature-cell"><div class="feature-icon">📊</div><div class="feature-title">Doctor Analytics</div><div class="feature-desc">Track appointments, revenue, patient counts and ratings. See earnings, pending payouts and consultation trends.</div></div>
+      <div class="feature-cell"><div class="feature-icon">🔔</div><div class="feature-title">Push Notifications</div><div class="feature-desc">Appointment reminders, prescription alerts and M-Pesa confirmations via Expo push and Africa's Talking SMS.</div></div>
+      <div class="feature-cell"><div class="feature-icon">🏥</div><div class="feature-title">Insurance Claims</div><div class="feature-desc">Link insurance cards and generate claims from completed appointments. Full status tracking built in.</div><span class="feature-tag">Pro</span></div>
+      <div class="feature-cell"><div class="feature-icon">🔗</div><div class="feature-title">Doctor Referrals</div><div class="feature-desc">Refer patients to specialists with full context and referral code. Specialist receives everything before the appointment.</div></div>
+      <div class="feature-cell"><div class="feature-icon">📝</div><div class="feature-title">Intake Forms</div><div class="feature-desc">Patients complete pre-consultation forms. Doctors review symptoms and allergies before the appointment begins.</div></div>
+      <div class="feature-cell"><div class="feature-icon">⏳</div><div class="feature-title">Waitlist Management</div><div class="feature-desc">Patients join a doctor's waitlist. Automatic notification when a slot opens up. No calls needed.</div></div>
+      <div class="feature-cell"><div class="feature-icon">💰</div><div class="feature-title">Revenue & Payout Engine</div><div class="feature-desc">Platform commissions tracked per appointment. Doctor payouts via M-Pesa with full audit trail.</div><span class="feature-tag">Admin</span></div>
     </div>
   </div>
 </section>
@@ -717,11 +717,11 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
   <div class="section-inner">
     <div class="section-tag">Role-Based Portals</div>
     <h2>One platform. <em>Three dedicated experiences.</em></h2>
-    <p class="section-sub">Every user gets a focused experience tailored to their role â€” no clutter, no confusion.</p>
+    <p class="section-sub">Every user gets a focused experience tailored to their role — no clutter, no confusion.</p>
     <div class="portals-grid">
-      <div class="portal-card portal-patient"><div class="portal-emoji">ðŸ¤’</div><h3>Patient Portal</h3><ul><li>Browse & book appointments</li><li>Video consultations from phone</li><li>M-Pesa payment in one tap</li><li>View prescriptions & history</li><li>Insurance card management</li><li>Download medical records</li><li>Push notifications & reminders</li></ul></div>
-      <div class="portal-card portal-doctor"><div class="portal-emoji">ðŸ‘¨â€âš•ï¸</div><h3>Doctor Portal</h3><ul><li>Manage availability & slots</li><li>Video consultation dashboard</li><li>Write digital prescriptions</li><li>Patient intake forms & notes</li><li>Revenue & payout tracking</li><li>Refer patients to specialists</li><li>Ratings & analytics</li></ul></div>
-      <div class="portal-card portal-admin"><div class="portal-emoji">ðŸ›¡ï¸</div><h3>Admin Portal</h3><ul><li>Doctor verification & onboarding</li><li>Platform revenue dashboard</li><li>Manage subscriptions & plans</li><li>Payout processing via M-Pesa</li><li>Audit logs & compliance</li><li>User management & roles</li><li>Platform-wide analytics</li></ul></div>
+      <div class="portal-card portal-patient"><div class="portal-emoji">🤒</div><h3>Patient Portal</h3><ul><li>Browse & book appointments</li><li>Video consultations from phone</li><li>M-Pesa payment in one tap</li><li>View prescriptions & history</li><li>Insurance card management</li><li>Download medical records</li><li>Push notifications & reminders</li></ul></div>
+      <div class="portal-card portal-doctor"><div class="portal-emoji">👨‍⚕️</div><h3>Doctor Portal</h3><ul><li>Manage availability & slots</li><li>Video consultation dashboard</li><li>Write digital prescriptions</li><li>Patient intake forms & notes</li><li>Revenue & payout tracking</li><li>Refer patients to specialists</li><li>Ratings & analytics</li></ul></div>
+      <div class="portal-card portal-admin"><div class="portal-emoji">🛡️</div><h3>Admin Portal</h3><ul><li>Doctor verification & onboarding</li><li>Platform revenue dashboard</li><li>Manage subscriptions & plans</li><li>Payout processing via M-Pesa</li><li>Audit logs & compliance</li><li>User management & roles</li><li>Platform-wide analytics</li></ul></div>
     </div>
   </div>
 </section>
@@ -733,17 +733,17 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
     <h2>How we <em>compare</em></h2>
     <p class="section-sub">An objective look at SoloDoc versus alternatives available to Kenyan patients and doctors today.</p>
     <table class="comparison-table">
-      <thead><tr><th>Feature</th><th style="color:var(--teal3)">SoloDoc âœ“</th><th>WhatsApp Doctors</th><th>Hospital OPD</th><th>Generic Telehealth</th></tr></thead>
+      <thead><tr><th>Feature</th><th style="color:var(--teal3)">SoloDoc ✓</th><th>WhatsApp Doctors</th><th>Hospital OPD</th><th>Generic Telehealth</th></tr></thead>
       <tbody>
-        <tr><td>M-Pesa STK Push</td><td class="check highlight-col">âœ“ Built-in</td><td class="cross">âœ—</td><td class="cross">âœ—</td><td class="cross">âœ— Manual</td></tr>
-        <tr><td>HD Video Consultation</td><td class="check highlight-col">âœ“ Daily.co</td><td class="cross">Unstable</td><td class="cross">âœ—</td><td class="check">âœ“</td></tr>
-        <tr><td>Digital Prescriptions</td><td class="check highlight-col">âœ“ Structured</td><td class="cross">PDF only</td><td class="check">âœ“ Paper</td><td class="cross">Basic</td></tr>
-        <tr><td>Medical History</td><td class="check highlight-col">âœ“ Full history</td><td class="cross">âœ—</td><td class="cross">Manual</td><td class="cross">Limited</td></tr>
-        <tr><td>Insurance Claims</td><td class="check highlight-col">âœ“ Built-in</td><td class="cross">âœ—</td><td class="check">âœ“</td><td class="cross">âœ—</td></tr>
-        <tr><td>Doctor Referral System</td><td class="check highlight-col">âœ“ Automated</td><td class="cross">âœ—</td><td class="cross">Paper</td><td class="cross">âœ—</td></tr>
-        <tr><td>Mobile App (Android)</td><td class="check highlight-col">âœ“ React Native</td><td class="cross">WhatsApp only</td><td class="cross">âœ—</td><td class="check">âœ“</td></tr>
-        <tr><td>Push Notifications</td><td class="check highlight-col">âœ“ Expo + SMS</td><td class="cross">âœ—</td><td class="cross">âœ—</td><td class="cross">Email only</td></tr>
-        <tr><td>Doctor Payout Tracking</td><td class="check highlight-col">âœ“ M-Pesa</td><td class="cross">Manual</td><td class="cross">Payroll only</td><td class="cross">Manual</td></tr>
+        <tr><td>M-Pesa STK Push</td><td class="check highlight-col">✓ Built-in</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗ Manual</td></tr>
+        <tr><td>HD Video Consultation</td><td class="check highlight-col">✓ Daily.co</td><td class="cross">Unstable</td><td class="cross">✗</td><td class="check">✓</td></tr>
+        <tr><td>Digital Prescriptions</td><td class="check highlight-col">✓ Structured</td><td class="cross">PDF only</td><td class="check">✓ Paper</td><td class="cross">Basic</td></tr>
+        <tr><td>Medical History</td><td class="check highlight-col">✓ Full history</td><td class="cross">✗</td><td class="cross">Manual</td><td class="cross">Limited</td></tr>
+        <tr><td>Insurance Claims</td><td class="check highlight-col">✓ Built-in</td><td class="cross">✗</td><td class="check">✓</td><td class="cross">✗</td></tr>
+        <tr><td>Doctor Referral System</td><td class="check highlight-col">✓ Automated</td><td class="cross">✗</td><td class="cross">Paper</td><td class="cross">✗</td></tr>
+        <tr><td>Mobile App (Android)</td><td class="check highlight-col">✓ React Native</td><td class="cross">WhatsApp only</td><td class="cross">✗</td><td class="check">✓</td></tr>
+        <tr><td>Push Notifications</td><td class="check highlight-col">✓ Expo + SMS</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">Email only</td></tr>
+        <tr><td>Doctor Payout Tracking</td><td class="check highlight-col">✓ M-Pesa</td><td class="cross">Manual</td><td class="cross">Payroll only</td><td class="cross">Manual</td></tr>
       </tbody>
     </table>
   </div>
@@ -757,8 +757,8 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
     <h2>Transparent pricing. <em>No surprises.</em></h2>
     <p class="section-sub">All plans billed monthly. Start free, upgrade as your practice grows. All prices in KES.</p>
     <div class="pricing-grid">
-      <div class="plan-card"><div class="plan-name">Basic</div><div class="plan-price">Free</div><div class="plan-period">Forever free Â· Up to 10 appointments/mo</div><ul class="plan-features"><li>Patient & doctor registration</li><li>Appointment booking</li><li>Basic video consultation</li><li>Digital prescriptions</li><li>M-Pesa payments</li></ul><a href="#register" class="plan-btn">Get Started Free</a></div>
-      <div class="plan-card featured"><div class="plan-badge">Most Popular</div><div class="plan-name">Pro</div><div class="plan-price">KES 3,500</div><div class="plan-period">Per month Â· Unlimited appointments</div><ul class="plan-features"><li>Everything in Basic</li><li>Unlimited consultations</li><li>Medical records & history</li><li>Insurance claims</li><li>Doctor referral system</li><li>Push notifications & SMS</li><li>Revenue analytics</li><li>Priority support</li></ul><a href="#register" class="plan-btn">Get Pro</a></div>
+      <div class="plan-card"><div class="plan-name">Basic</div><div class="plan-price">Free</div><div class="plan-period">Forever free · Up to 10 appointments/mo</div><ul class="plan-features"><li>Patient & doctor registration</li><li>Appointment booking</li><li>Basic video consultation</li><li>Digital prescriptions</li><li>M-Pesa payments</li></ul><a href="#register" class="plan-btn">Get Started Free</a></div>
+      <div class="plan-card featured"><div class="plan-badge">Most Popular</div><div class="plan-name">Pro</div><div class="plan-price">KES 3,500</div><div class="plan-period">Per month · Unlimited appointments</div><ul class="plan-features"><li>Everything in Basic</li><li>Unlimited consultations</li><li>Medical records & history</li><li>Insurance claims</li><li>Doctor referral system</li><li>Push notifications & SMS</li><li>Revenue analytics</li><li>Priority support</li></ul><a href="#register" class="plan-btn">Get Pro</a></div>
       <div class="plan-card"><div class="plan-name">Enterprise</div><div class="plan-price">Custom</div><div class="plan-period">Tailored for hospitals & clinics</div><ul class="plan-features"><li>Everything in Pro</li><li>Multi-doctor clinic setup</li><li>Dedicated onboarding</li><li>SLA guarantee</li><li>API access & integrations</li><li>Custom branding</li><li>County-level reporting</li></ul><a href="#contact" class="plan-btn">Contact Sales</a></div>
     </div>
   </div>
@@ -772,9 +772,9 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
     <p class="section-sub" style="margin:0 auto">Doctors and patients on SoloDoc see measurable impact within the first month.</p>
     <div class="roi-grid">
       <div class="roi-card"><div class="roi-num">80%</div><div class="roi-label">Reduction in missed appointments via automated reminders</div></div>
-      <div class="roi-card"><div class="roi-num">3Ã—</div><div class="roi-label">Faster payment collection via M-Pesa STK push vs bank transfers</div></div>
+      <div class="roi-card"><div class="roi-num">3×</div><div class="roi-label">Faster payment collection via M-Pesa STK push vs bank transfers</div></div>
       <div class="roi-card"><div class="roi-num">60%</div><div class="roi-label">Fewer no-shows with push notification reminders</div></div>
-      <div class="roi-card"><div class="roi-num">100%</div><div class="roi-label">Digital paper trail â€” prescriptions, records & receipts always accessible</div></div>
+      <div class="roi-card"><div class="roi-num">100%</div><div class="roi-label">Digital paper trail — prescriptions, records & receipts always accessible</div></div>
     </div>
   </div>
 </section>
@@ -785,9 +785,9 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
     <div class="section-tag">Testimonials</div>
     <h2>Trusted by doctors & patients <em>across Kenya.</em></h2>
     <div class="testimonials-grid">
-      <div class="testimonial-card"><div class="stars">â˜…â˜…â˜…â˜…â˜…</div><p class="testimonial-text">I used to chase patients for payments via bank transfer. With SoloDoc, they pay via M-Pesa before the consultation. My outstanding balances dropped by 70% in the first month.</p><div class="testimonial-author"><div class="author-avatar">AK</div><div><div class="author-name">Dr. Aisha Kariuki</div><div class="author-role">Cardiologist Â· Nairobi</div></div></div></div>
-      <div class="testimonial-card"><div class="stars">â˜…â˜…â˜…â˜…â˜…</div><p class="testimonial-text">As a patient in Kisumu, I used to travel to Nairobi for specialist consultations. SoloDoc changed that completely. I saw a specialist in 20 minutes from my phone.</p><div class="testimonial-author"><div class="author-avatar">JO</div><div><div class="author-name">James Otieno</div><div class="author-role">Patient Â· Kisumu County</div></div></div></div>
-      <div class="testimonial-card"><div class="stars">â˜…â˜…â˜…â˜…â˜…</div><p class="testimonial-text">The digital prescription system is a game changer. My patients access their prescriptions on their phone anytime, and I have a complete record of every consultation I've done.</p><div class="testimonial-author"><div class="author-avatar">MW</div><div><div class="author-name">Dr. Moses Waweru</div><div class="author-role">General Practitioner Â· Mombasa</div></div></div></div>
+      <div class="testimonial-card"><div class="stars">★★★★★</div><p class="testimonial-text">I used to chase patients for payments via bank transfer. With SoloDoc, they pay via M-Pesa before the consultation. My outstanding balances dropped by 70% in the first month.</p><div class="testimonial-author"><div class="author-avatar">AK</div><div><div class="author-name">Dr. Aisha Kariuki</div><div class="author-role">Cardiologist · Nairobi</div></div></div></div>
+      <div class="testimonial-card"><div class="stars">★★★★★</div><p class="testimonial-text">As a patient in Kisumu, I used to travel to Nairobi for specialist consultations. SoloDoc changed that completely. I saw a specialist in 20 minutes from my phone.</p><div class="testimonial-author"><div class="author-avatar">JO</div><div><div class="author-name">James Otieno</div><div class="author-role">Patient · Kisumu County</div></div></div></div>
+      <div class="testimonial-card"><div class="stars">★★★★★</div><p class="testimonial-text">The digital prescription system is a game changer. My patients access their prescriptions on their phone anytime, and I have a complete record of every consultation I've done.</p><div class="testimonial-author"><div class="author-avatar">MW</div><div><div class="author-name">Dr. Moses Waweru</div><div class="author-role">General Practitioner · Mombasa</div></div></div></div>
     </div>
   </div>
 </section>
@@ -798,22 +798,22 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
     <div>
       <div class="section-tag">Mobile App</div>
       <h2>SoloDoc on your <em>phone.</em></h2>
-      <p style="font-size:16px;color:var(--gray600);line-height:1.7;margin-bottom:8px">Book appointments, join video consultations, view prescriptions and pay via M-Pesa â€” all from the SoloDoc Android app.</p>
+      <p style="font-size:16px;color:var(--gray600);line-height:1.7;margin-bottom:8px">Book appointments, join video consultations, view prescriptions and pay via M-Pesa — all from the SoloDoc Android app.</p>
       <div class="app-badges">
-        <a href="https://expo.dev/accounts/fateya1/projects/solo-doctor-emedicine-platform/builds" class="app-badge"><span class="app-badge-icon">ðŸ¤–</span><div><div style="font-size:10px;opacity:.7">Download on</div><div style="font-weight:700">Google Play</div></div></a>
-        <a href="https://expo.dev/accounts/fateya1/projects/solo-doctor-emedicine-platform/builds" class="app-badge"><span class="app-badge-icon">ðŸ“²</span><div><div style="font-size:10px;opacity:.7">Get it on</div><div style="font-weight:700">APK Direct</div></div></a>
+        <a href="https://expo.dev/accounts/fateya1/projects/solo-doctor-emedicine-platform/builds" class="app-badge"><span class="app-badge-icon">🤖</span><div><div style="font-size:10px;opacity:.7">Download on</div><div style="font-weight:700">Google Play</div></div></a>
+        <a href="https://expo.dev/accounts/fateya1/projects/solo-doctor-emedicine-platform/builds" class="app-badge"><span class="app-badge-icon">📲</span><div><div style="font-size:10px;opacity:.7">Get it on</div><div style="font-weight:700">APK Direct</div></div></a>
       </div>
     </div>
     <div style="background:var(--white);border-radius:24px;padding:32px;border:1px solid var(--gray200)">
       <div style="text-align:center;padding:20px">
-        <div style="font-size:64px;margin-bottom:16px">ðŸ“±</div>
+        <div style="font-size:64px;margin-bottom:16px">📱</div>
         <div style="font-family:var(--serif);font-size:20px;color:var(--gray800);margin-bottom:8px">SoloDoc Mobile App</div>
-        <div style="font-size:14px;color:var(--gray400)">Available for Android Â· Built with Expo</div>
+        <div style="font-size:14px;color:var(--gray400)">Available for Android · Built with Expo</div>
         <div style="margin-top:20px;display:flex;flex-direction:column;gap:8px">
-          <div style="background:var(--sky);border-radius:8px;padding:10px 16px;font-size:13px;color:var(--teal);font-weight:600">âœ“ Video consultations</div>
-          <div style="background:var(--sky);border-radius:8px;padding:10px 16px;font-size:13px;color:var(--teal);font-weight:600">âœ“ M-Pesa payments</div>
-          <div style="background:var(--sky);border-radius:8px;padding:10px 16px;font-size:13px;color:var(--teal);font-weight:600">âœ“ Digital prescriptions</div>
-          <div style="background:var(--sky);border-radius:8px;padding:10px 16px;font-size:13px;color:var(--teal);font-weight:600">âœ“ Push notifications</div>
+          <div style="background:var(--sky);border-radius:8px;padding:10px 16px;font-size:13px;color:var(--teal);font-weight:600">✓ Video consultations</div>
+          <div style="background:var(--sky);border-radius:8px;padding:10px 16px;font-size:13px;color:var(--teal);font-weight:600">✓ M-Pesa payments</div>
+          <div style="background:var(--sky);border-radius:8px;padding:10px 16px;font-size:13px;color:var(--teal);font-weight:600">✓ Digital prescriptions</div>
+          <div style="background:var(--sky);border-radius:8px;padding:10px 16px;font-size:13px;color:var(--teal);font-weight:600">✓ Push notifications</div>
         </div>
       </div>
     </div>
@@ -828,10 +828,10 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
     <h2 style="color:var(--white)">Quality healthcare, <em style="color:var(--teal2)">everywhere in Kenya.</em></h2>
     <p>Join thousands of patients and doctors already on SoloDoc. Register in under 5 minutes. No credit card required for the free plan.</p>
     <div class="cta-actions">
-      <a href="https://solo-doctor-emedicine-platform.vercel.app/auth/register?role=PATIENT" class="btn-primary" style="background:var(--teal)">Register as Patient â†’</a>
-      <a href="https://solo-doctor-emedicine-platform.vercel.app/auth/register?role=DOCTOR" class="btn-primary" style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)">Join as Doctor â†’</a>
+      <a href="https://solo-doctor-emedicine-platform.vercel.app/auth/register?role=PATIENT" class="btn-primary" style="background:var(--teal)">Register as Patient →</a>
+      <a href="https://solo-doctor-emedicine-platform.vercel.app/auth/register?role=DOCTOR" class="btn-primary" style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)">Join as Doctor →</a>
     </div>
-    <p style="margin-top:20px;font-size:13px;color:rgba(255,255,255,.4)">Instant access Â· Your data is yours Â· Secure infrastructure</p>
+    <p style="margin-top:20px;font-size:13px;color:rgba(255,255,255,.4)">Instant access · Your data is yours · Secure infrastructure</p>
   </div>
 </section>
 
@@ -841,22 +841,22 @@ footer{background:var(--navy);padding:60px 24px 32px;color:rgba(255,255,255,.6)}
     <div class="footer-grid">
       <div>
         <div class="footer-brand">Solo<span>Doc</span></div>
-        <p class="footer-tagline">Kenya's complete e-medicine platform â€” connecting patients with verified doctors for online consultations, prescriptions, and M-Pesa payments.</p>
-        <div style="display:flex;gap:10px;flex-wrap:wrap"><span style="font-size:12px;background:rgba(255,255,255,.06);padding:4px 10px;border-radius:6px;color:rgba(255,255,255,.4)">ðŸ‡°ðŸ‡ª Made in Kenya</span><span style="font-size:12px;background:rgba(255,255,255,.06);padding:4px 10px;border-radius:6px;color:rgba(255,255,255,.4)">ðŸ”’ Secure</span></div>
+        <p class="footer-tagline">Kenya's complete e-medicine platform — connecting patients with verified doctors for online consultations, prescriptions, and M-Pesa payments.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap"><span style="font-size:12px;background:rgba(255,255,255,.06);padding:4px 10px;border-radius:6px;color:rgba(255,255,255,.4)">🇰🇪 Made in Kenya</span><span style="font-size:12px;background:rgba(255,255,255,.06);padding:4px 10px;border-radius:6px;color:rgba(255,255,255,.4)">🔒 Secure</span></div>
       </div>
       <div class="footer-col"><h4>Platform</h4><ul><li><a href="#how">How It Works</a></li><li><a href="#features">Features</a></li><li><a href="#portals">Portals</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#app">Mobile App</a></li></ul></div>
       <div class="footer-col"><h4>For Doctors</h4><ul><li><a href="https://solo-doctor-emedicine-platform.vercel.app/auth/register?role=DOCTOR">Join as Doctor</a></li><li><a href="#">Verification Process</a></li><li><a href="#">Payout Structure</a></li><li><a href="#">Doctor Dashboard</a></li></ul></div>
       <div class="footer-col"><h4>Company</h4><ul><li><a href="#">About SoloDoc</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#" id="contact">Contact Us</a></li></ul></div>
     </div>
     <div class="footer-bottom">
-      <p>Â© 2026 SoloDoc. All rights reserved.</p>
-      <div style="display:flex;align-items:center;gap:6px;font-size:13px">ðŸ‡°ðŸ‡ª <span>Built for Kenya Â· Powered by M-Pesa & Safaricom</span></div>
+      <p>© 2026 SoloDoc. All rights reserved.</p>
+      <div style="display:flex;align-items:center;gap:6px;font-size:13px">🇰🇪 <span>Built for Kenya · Powered by M-Pesa & Safaricom</span></div>
     </div>
   </div>
 </footer>
 
 <script>
-/* â”€â”€ KPI Counter Animation â”€â”€ */
+/* ── KPI Counter Animation ── */
 function animateCounter(el){
   var target=+el.dataset.target,duration=2000,start=null;
   function step(ts){
@@ -887,7 +887,7 @@ var kpiObserver=new IntersectionObserver(function(entries){
 },{threshold:.2});
 kpiCards.forEach(function(c){kpiObserver.observe(c)});
 
-/* â”€â”€ Life Carousel â”€â”€ */
+/* ── Life Carousel ── */
 var track=document.getElementById('lifeTrack');
 var dotsEl=document.getElementById('lifeDots');
 var cards=track.querySelectorAll('.life-card');
@@ -914,7 +914,7 @@ document.getElementById('lifeNext').addEventListener('click',function(){goTo(cur
 var autoplay=setInterval(function(){goTo(current>=cards.length-1?0:current+1)},3500);
 track.addEventListener('touchstart',function(){clearInterval(autoplay)},{passive:true});
 
-/* â”€â”€ Mobile nav â”€â”€ */
+/* ── Mobile nav ── */
 document.querySelector('.nav-toggle').addEventListener('click',function(){
   var links=document.querySelector('.nav-links');
   links.style.display=links.style.display==='flex'?'none':'flex';
@@ -923,4 +923,3 @@ document.querySelector('.nav-toggle').addEventListener('click',function(){
 </script>
 </body>
 </html>
-
